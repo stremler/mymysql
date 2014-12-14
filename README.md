@@ -653,8 +653,8 @@ below:
 
 ## Big packets
 
-This package can send and receive MySQL data packets that are biger than 16 MB.
-This means that you can receive response rows biger than 16 MB and can execute
+This package can send and receive MySQL data packets that are bigger than 16 MB.
+This means that you can receive response rows bigger than 16 MB and can execute
 prepared statements with parameter data bigger than 16 MB without using
 SendLongData method. If you want to use this feature you need to change the default
 mymysql setting using the *Conn.SetMaxPktSize* method and change
